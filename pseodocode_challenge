@@ -1,0 +1,93 @@
+1. Newton Second Law
+
+Algoritma
+ 
+1.Rumus dasar menghitung hukum II newton adalah ΣF = m x a
+2.Resultan gaya mobil (ΣF) = massa benda 600 kg dikali percepatan 2 m/s2 
+3.Hasil ΣF = 1200 n
+
+
+Pseodocode
+
+ΣF = m x a
+STORE “massa benda” 600 kg
+STORE “percepatan benda” 2 m/s2
+CALCULATE “massa benda” 600 kg x “percepatan benda” 2 m/s2
+SET “hasil” 600 kg x 2 m/s2
+DISPLAY “hasil” 1200 n
+
+2.Tahun Kabisat
+
+1.Jika tahun habis di bagi 4 dan tidak habis di bagi 100, dan
+2.Jika tahun habis di bagi 4 dan habis di bagi 100 dan habis di bagi 400
+
+Algoritma
+
+1.Masukan tahun yang ingin dicek apakah itu tahun kabisat atau bukan
+2.Jika tahun tidak habis dibagi 4 maka itu bukan tahun kabisat
+3.Jika tahun tidak habis dibagi 100 dan dibagi 400 maka itu bukan tahun kabisat
+4.Maka selain itu adalah tahun kabisat 
+
+Pseodocode
+
+Menentukan tahun kabisat
+{program menentukan tahun kabisat}
+
+DEKLARASI
+Var a,b,c,d,e
+DESKRIPSI
+write “inputkan tahun”;
+Read a;
+If (a % 4 !=0)then
+Write “ bukan tahun kabisat”
+Else if (a % 100 !=0 && a % 400 !=0)
+Write “bukan tahun kabisat”
+Else
+Write “tahun kabisat”
+Endif
+
+3. Laundry Day
+
+Algoritma 
+
+1.Jumlah mencuci saat ini 0
+2.Jhon akan mencuci sebanyak 20 pakain dan memasukan pakain satu per satu
+3.Jika pakaian yang di masukan ke dalam mesin cuci sebanyak  20 pakaian maka mesin akan dihidupkan
+
+
+Pseudocode
+
+Membantu jhon mencuci
+{program mencuci}
+
+DEKLARASI
+Var a = 1
+DESKRIPSI
+While (a <=20)
+If (a % 2 == 0)
+Write “mesin mencuci”
+Endif
+
+
+4. Periksa Kuku
+
+
+Algoritma
+
+1.Guru keliling kelas memeriksa kuku murid satu persatu
+2.Jika menemukan murid yang kukunya panjang maka ankan dihukum
+3.Jika menemukan murid yang kukunya tidak panjang maka akan dipuji
+
+Pseudocode
+
+Memeriksa kuku
+{program memeriksa kuku}
+DEKLARASI
+Var a=1
+DEKRIPSI
+While (a<=40)
+If (a % 2 == 0)
+Write “hukuman”
+Else
+Write “pujian”
+endif
