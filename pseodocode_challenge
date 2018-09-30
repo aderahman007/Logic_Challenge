@@ -10,11 +10,11 @@ Algoritma
 Pseodocode
 
 ΣF = m x a
-STORE “massa benda” 600 kg
-STORE “percepatan benda” 2 m/s2
+write “massa benda” 600 kg
+write “percepatan benda” 2 m/s2
 CALCULATE “massa benda” 600 kg x “percepatan benda” 2 m/s2
 SET “hasil” 600 kg x 2 m/s2
-DISPLAY “hasil” 1200 n
+write “hasil” 1200 n
 
 2.Tahun Kabisat
 
