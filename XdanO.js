@@ -1,11 +1,18 @@
-function xo(string){
-  var x = 0;
-  var o = 0;
-  for (i = 0; i <= string.length; i++){
-    if (string[i] === 'x')x++;
-    else if (string[i] === 'o')o++;
+function xo(str){
+  var x = ''
+  var o = ''
+  for (var i = 0; i < str.length; i++){
+    if (str[i] === 'x'){
+      x++
+    }else{
+      o++
+    }
   }
-  return x === o;
+  if (x === o){
+    return true
+  }else{
+    return false
+  }
 }
 console.log(xo('xoxoxo')); // true
 console.log(xo('oxooxo')); // false
