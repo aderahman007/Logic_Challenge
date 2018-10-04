@@ -1,10 +1,14 @@
-function katabalik(kata){
-  var balikKata = kata.split('').reverse().join('');
-  return balikKata;
+function balikKata(kata){
+  var tampung = '';
+  for(var i = kata.length -1; i >= 0; i--){
+    tampung += kata[i];
+  }
+  return tampung
 }
 
-console.log(katabalik('Hello World and Coders')); // sredoC dna dlroW olleH
-console.log(katabalik('John Doe')); // eoD nhoJ
-console.log(katabalik('I am a bookworm')); // mrowkoob a ma I
-console.log(katabalik('Coding is my hobby')); // ybboh ym si gnidoC
-console.log(katabalik('Super')); // repuS
+
+console.log(balikKata('Hello World and Coders')); // sredoC dna dlroW olleH
+console.log(balikKata('John Doe')); // eoD nhoJ
+console.log(balikKata('I am a bookworm')); // mrowkoob a ma I
+console.log(balikKata('Coding is my hobby')); // ybboh ym si gnidoC
+console.log(balikKata('Super')); // repuS
